@@ -8,7 +8,7 @@ from datetime import datetime
 # to send a notification mail 
 server=smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
-server.login('adarsh.dummy.mail@gmail.com','kkjzpitnknuohkfy')
+server.login('adarsh.dummy.mail@gmail.com', '-enter key here-')
 def mail(text):
     subject="ALERT: Stolen Vehicle Detected"
     message='Subject: {}\n\n{}'.format(subject,text)
